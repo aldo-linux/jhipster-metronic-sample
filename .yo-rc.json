@@ -43,7 +43,9 @@
     "pages": [],
     "devServerPort": 9060,
     "withAdminUi": true,
-    "reactive": false
+    "reactive": false,
+    "lastLiquibaseTimestamp": 1629499959000,
+    "entities": ["Book"]
   },
   "entities": [
     "ConnectionConfig",

@@ -48,6 +48,7 @@ public class CacheConfiguration {
             createCache(cm, com.ridm.services.connector.domain.User.class.getName());
             createCache(cm, com.ridm.services.connector.domain.Authority.class.getName());
             createCache(cm, com.ridm.services.connector.domain.User.class.getName() + ".authorities");
+            createCache(cm, com.ridm.services.connector.domain.Book.class.getName());
             // jhipster-needle-ehcache-add-entry
         };
     }
